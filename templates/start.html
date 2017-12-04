@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zadanie 13.9</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Wgraj plik</h1>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label class="control-label">Tytuł pliku</label>
+            <input type="text" name="title" class="">
+            <br>
+            <label>Plik</label>
+            <input class="upload" type="file" name="upload" multiple="multiple"><br>
+            <input class="btn btn-success" type="submit" value="Wyślij">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+  background-color: #34374C;
+  font-size: 18px;
+  color: #F6F6F6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  body h1 {
+    color: #EE2B47;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 48px; }
+  body label {
+    padding: 10px; }
+  body input {
+    border: none;
+    border-radius: 5px;
+    height: 32px; }
+  body .upload {
+    display: inline-block; }
+  body .btn {
+    width: 80px;
+    font-weight: bold; }
+  body img {
+    display: block;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
